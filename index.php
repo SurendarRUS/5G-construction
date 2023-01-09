@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <h1>Hi</h2>
+
 <?php require_once('php/header.php');?>
 <?php require_once('php/queryForm.php')?>
 <?php require_once('php/carousel.php');?>
