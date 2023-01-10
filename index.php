@@ -18,11 +18,13 @@
 <?php require_once('php/carousel.php');?>
 <?php require_once('php/about.php');?>
 <?php require_once('php/services.php');?>
-<?php require_once('php/footer.php');?>
+<?php require_once('php/testimonials.php');?>
+<?php require_once('php/footer.php');?> 
 
 
 <script src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
 

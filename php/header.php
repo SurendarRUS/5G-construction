@@ -12,21 +12,25 @@ require_once('connection.php')
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="../fiveG_project">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
+          <a class="nav-link" href="../fiveG_project/about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Products</a>
+          <a class="nav-link" href="../fiveG_project/service.php">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
         </li>
         
       </ul>
-      <?php require_once('queryForm.php')?>
+      
     </div>
+    <?php require_once('queryForm.php')?>
   </div>
   
 </nav>
