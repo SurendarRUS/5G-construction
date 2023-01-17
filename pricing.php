@@ -14,10 +14,28 @@
 <body>
 
 <?php require_once('php/header.php');?>
-<?php require_once('php/queryForm.php')?>
-<?php require_once('php/carousel.php');?>
-<?php require_once('php/about.php');?>
-<?php require_once('php/services.php');?>
+<div class="price_Banner">
+    <img src="media/pricingBanner.jpg" alt="">
+</div>
+<div class="card pricing my-5 w-50 mx-auto">
+  <h5 class="card-header bg-dark text-light">A Competitive Pricing</h5>
+  <div class="card-body">
+    <h5 class="card-title">Rs.2350/-</h5>
+    <p class="card-text">per sq.ft is the price we offer for our work.</p>
+    <p class="card-text"></p>
+    <a href="about.php" target="_blank" class="btn btn-warning">Contact US</a>
+  </div>
+</div>
+<div class="container brandsContainer d-flex justify-content-center my-5">
+  <div class="row row-cols-3 d-flex justify-content-center">
+    <div class="brands col-lg-4 col-md-4 col-6"><p>WireCut Bricks</p></div>
+    <div class="brands col-lg-4 col-md-4 col-6"><p>Zuari Cement</p></div>
+    <div class="brands col-lg-4 col-md-4 col-6"><p>Pulkit 550 TMT Bar</p></div>
+    <div class="brands col-lg-4 col-md-4 col-6"><p>Ashirvad Pipes</p></div>
+    <div class="brands col-lg-4 col-md-4 col-6"><p>River Sand</p></div>
+    <div class="brands col-lg-4 col-md-4 col-6"><p>ParryWare</p></div>
+  </div>
+</div>
 <?php require_once('php/footer.php');?> 
 
 

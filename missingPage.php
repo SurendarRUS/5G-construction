@@ -14,10 +14,11 @@
 <body>
 
 <?php require_once('php/header.php');?>
-<?php require_once('php/queryForm.php')?>
-<?php require_once('php/carousel.php');?>
-<?php require_once('php/about.php');?>
-<?php require_once('php/services.php');?>
+<div class="pnf">
+
+    <img class=" img-fluid mx-auto" src="media/404.jpg" alt="">
+    <a href="index.php" class="btn btn-warning">HomePage</a>
+</div>
 <?php require_once('php/footer.php');?> 
 
 

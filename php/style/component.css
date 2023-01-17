@@ -7,6 +7,11 @@
   font-family: "Oswald", sans-serif;
 }
 
+a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
 .navbar {
   background-color: #ffffff !important;
   font-family: "Oswald", sans-serif;
@@ -21,12 +26,17 @@
   color: transparent;
 }
 .navbar .logo {
-  max-width: 200px;
-  aspect-ratio: 4/2;
+  max-width: 100px;
+  aspect-ratio: 4/3;
 }
 .navbar .collapse {
   display: flex;
   justify-content: space-between;
+}
+.navbar ul li:last-child {
+  display: block;
+  justify-content: center;
+  margin-top: 6px;
 }
 
 .modal .card-registration .select-input.form-control[readonly]:not([disabled]) {
@@ -99,6 +109,11 @@
 .service_container .card-img-top {
   height: 250px !important;
 }
+.service_container .card:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease-in;
+  z-index: 99;
+}
 .service_container .icon_card {
   width: 100px;
   height: 100px;
@@ -108,10 +123,93 @@
 .service_container .whyUS {
   width: 100%;
 }
+.service_container .whyUS .fs-1:hover {
+  background-color: #ffa200 !important;
+  color: #000 !important;
+  transition: 0.5s ease-in;
+}
+.service_container .accordion-item:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+  z-index: 99;
+}
 .service_container .accordion-button:not(.collapsed) {
   color: #ffa200;
   background-color: #e7f1ff;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+}
+
+.service_Banner img {
+  width: 100%;
+  aspect-ratio: 16/6;
+}
+.service_Banner .h2 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-60%, -100%);
+  font-size: 4.5rem;
+  color: #e7f1ff;
+}
+.service_Banner .service_context {
+  width: 50%;
+}
+.service_Banner .service_context img {
+  max-width: 450px !important;
+}
+.service_Banner .service_context .h3 {
+  color: #ffa200;
+}
+.service_Banner .service_context .h5 {
+  color: #f5be5f;
+  text-align: center;
+}
+.service_Banner .service_context .row {
+  box-shadow: 1px 1px 3px -2px #000;
+}
+
+.price_Banner img {
+  width: 100%;
+  aspect-ratio: 16/6;
+}
+
+.brandsContainer {
+  width: 100%;
+}
+.brandsContainer .row {
+  width: 100%;
+}
+.brandsContainer .brands {
+  height: 100px;
+  background-color: #777;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brandsContainer .brands p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.brandsContainer .brands:hover {
+  background-color: #ffa200;
+}
+
+.pnf {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+.pnf img {
+  max-width: 70%;
+}
+.pnf .btn {
+  width: 30%;
+  margin-top: -30px;
 }
 
 footer {
@@ -137,6 +235,14 @@ footer h6 {
   aside img {
     max-width: 350px;
     margin: 0px auto;
+  }
+  .service_context {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 975px) {
+  .service_context {
+    width: 90%;
   }
 }
 

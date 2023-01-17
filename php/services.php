@@ -6,7 +6,7 @@
             <img src="https://365psd.com/images/listing/1a1/architectural-series-vector-5-12477.jpg" class="card-img-top" alt="...">
             <div class="card-body mx-auto d-flex flex-column justify-content-center">
                <p class="card-text h5">Architecture Design</p>
-               <button class="btn btn-warning">Know More</button>
+               <button class="btn btn-warning"><a href='../fiveG_project/services.php'>Know More</a></button>
             </div>
          </div>
       </div>
@@ -15,7 +15,7 @@
             <img src="https://img.freepik.com/premium-photo/modern-house-with-garage-white-background-3d-rendering_101266-5238.jpg?w=2000" class="card-img-top" alt="...">
             <div class="card-body mx-auto d-flex flex-column justify-content-center">
                <p class="card-text h5">Building Construction</p>
-               <button class="btn btn-warning">Know More</button>
+               <button class="btn btn-warning"><a href='../fiveG_project/services.php'>Know More</a></button>
             </div>
          </div>
       </div>
@@ -24,7 +24,7 @@
             <img src="https://img.freepik.com/free-vector/isometric-rooms-composition_1284-35782.jpg?w=2000" class="card-img-top" alt="...">
             <div class="card-body mx-auto d-flex flex-column justify-content-center">
                <p class="card-text h5">Interior Design</p>
-               <button class="btn btn-warning">Know More</button>
+               <button class="btn btn-warning"><a href='../fiveG_project/services.php'>Know More</a></button>
             </div>
          </div>
       </div>
@@ -68,7 +68,7 @@
                      </button>
                   </h2>
                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                     <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                     <div class="accordion-body">We are profiecient in building all types of Residential and Commercial Buildings including Renowation works.</div>
                   </div>
                </div>
                <div class="accordion-item">
@@ -78,7 +78,7 @@
                      </button>
                   </h2>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                     <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                     <div class="accordion-body">It may vary with the initial work like excavation and cleaning works. From initial work day it would take 80-90 days for 600 sq.ft area.</div>
                   </div>
                </div>
                <div class="accordion-item">
@@ -88,7 +88,7 @@
                      </button>
                   </h2>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                     <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                     <div class="accordion-body">We are confident that use dont use this offer. But we assure you 1 year of Gauranty for no-issues  and life-time support.</div>
                   </div>
                </div>
                <div class="accordion-item">
@@ -98,7 +98,8 @@
                      </button>
                   </h2>
                   <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                     <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                     <div class="accordion-body">We do not have options on price as like our Quality. 
+                        We never Compromise in our Quality work and Materials. We have native workers and use only River Sand for Construction. We quote our price at RS.2350/- per sq.ft. For further clariffication place a call at <a class="btn btn-warning text-light" href="tel:+917358212098">ThiruKumaran - 7358212098</a>   </div>
                   </div>
                </div>
                <div class="accordion-item">
@@ -108,7 +109,7 @@
                      </button>
                   </h2>
                   <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                     <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                     <div class="accordion-body">We shall make a construction agreement on consent of both parties(Builder and Customer) in a well detailed script. Other than that all other legal paper works will be done by the Customer only.</div>
                   </div>
                </div>
             </div>

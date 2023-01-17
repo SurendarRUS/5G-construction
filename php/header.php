@@ -18,19 +18,20 @@ require_once('connection.php')
           <a class="nav-link" href="../fiveG_project/about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../fiveG_project/service.php">Services</a>
+          <a class="nav-link" href="../fiveG_project/services.php">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="../fiveG_project/pricing.php">Pricing</a>
         </li>
-        
+        <li>
+          <?php require_once('queryForm.php')?>
+        </li>
       </ul>
-      
     </div>
-    <?php require_once('queryForm.php')?>
+    
   </div>
   
 </nav>

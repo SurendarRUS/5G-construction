@@ -1,3 +1,6 @@
+<?php
+require_once('connection.php')
+?>
 <!-- Footer -->
 <footer class="text-center text-lg-start text-muted">
   <!-- Section: Social media -->
@@ -52,24 +55,7 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Services
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Construction Design</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Residential Building</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Commercial Construction</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Interior Designs</a>
-          </p>
-        </div>
+        
         <!-- Grid column -->
 
         <!-- Grid column -->
@@ -79,17 +65,18 @@
             Useful links
           </h6>
           <p>
-            <a href="#!" class="text-reset">Pricing</a>
+            <a href="../fiveG_project/about.php" class="text-reset">About</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Gallery</a>
+            <a href="../fiveG_project/pricing.php" class="text-reset">Pricing</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Projects</a>
+            <a href="../fiveG_project/missingPage.php" class="text-reset">Gallery</a>
           </p>
           <p>
-            <a href="#!" class="text-reset">Get Estimation</a>
+            <a href="../fiveG_project/missingPage.php" class="text-reset">Projects</a>
           </p>
+          
         </div>
         <!-- Grid column -->
 

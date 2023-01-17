@@ -33,8 +33,56 @@
     </div>
     </article>
     
-    
+    <form class="col-xl-4 col-md-6 col-12 mt-5">
+            <p class="h4 mx-auto">Get in Touch with Us</p>
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+  <div class="row mb-2">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example1" class="form-control" />
+        <label class="form-label" for="form6Example1">Name</label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example2" class="form-control" />
+        <label class="form-label" for="form6Example2">City</label>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Text input -->
+  <div class="form-outline mb-2">
+    <input type="text" id="form6Example4" class="form-control" />
+    <label class="form-label" for="form6Example4">Address</label>
+  </div>
+
+  <!-- Email input -->
+  <div class="form-outline mb-2">
+    <input type="email" id="form6Example5" class="form-control" />
+    <label class="form-label" for="form6Example5">Email</label>
+  </div>
+
+  <!-- Number input -->
+  <div class="form-outline mb-2">
+    <input type="number" id="form6Example6" class="form-control" />
+    <label class="form-label" for="form6Example6">Phone</label>
+  </div>
+
+  <!-- Message input -->
+  <div class="form-outline mb-2">
+    <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+    <label class="form-label" for="form6Example7">Additional information</label>
+  </div>
+
+
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-lg btn-warning btn-block mb-4" style="padding: 10px 50px;">Send</button>
+</form>
 </div>
+<?php require_once('php/footer.php');?> 
 
 
 
